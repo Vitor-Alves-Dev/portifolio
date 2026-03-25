@@ -22,8 +22,8 @@ function ProjectsSection() {
       title: 'Secret Word',
       description: 'Criado com React.js, HTML e CSS. O objetivo é adivinhar a palavra secreta letra por letra, acumulando pontos. Inclui sistema de tentativas, categorias e fácil expansão de palavras para maior dinâmica.',
       technologies: ['React', 'TypeScript', 'HTML', 'CSS'],
-      link: 'https://github.com/Vitor-Alves-Dev/Secret-Word-2.0',
-      linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
+      link: 'https://secret-word-20.vercel.app',
+      linkCodigo: 'https://github.com/Vitor-Alves-Dev/Secret-Word-2.0'
     },
     {
       image: acertaMosquito,
