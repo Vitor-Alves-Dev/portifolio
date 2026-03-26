@@ -29,14 +29,14 @@ function ProjectsSection() {
       image: acertaMosquito,
       title: 'Jogo do Acerta Mosquito',
       description: 'Jogo interativo onde o usuário deve eliminar mosquitos que aparecem na tela antes que desapareçam. Conta com níveis de dificuldade que alteram a velocidade e frequência dos elementos, aumentando o desafio.',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'TypeScript'],
       link: 'https://vitor-alves-dev.github.io/jogo-mata-mosquito/',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
     },
     {
       image: interroga,
-      title: 'Interroga(projeto autoral)',
-      description: 'Jogo de enigmas com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
+      title: 'Interroga',
+      description: 'Jogo de enigmas(apenas para desktop) com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
       technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
       link: 'https://interroga-2.vercel.app',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
@@ -55,14 +55,8 @@ function ProjectsSection() {
       description: 'E-commerce completo com carrinho de compras, sistema de pagamento integrado, gestão de estoque e painel administrativo.',
       technologies: ['React', 'Tailwind CSS', 'Stripe', 'PostgreSQL'],
       link: ''
-    },
-    {
-      image: 'https://images.unsplash.com/photo-1642452222105-b2933e287da4',
-      title: 'Loja virtual moderna',
-      description: 'E-commerce completo com carrinho de compras, sistema de pagamento integrado, gestão de estoque e painel administrativo.',
-      technologies: ['React', 'Tailwind CSS', 'Stripe', 'PostgreSQL'],
-      link: 'dddd'
     }
+    
   ];
 
   return (
@@ -86,7 +80,6 @@ function ProjectsSection() {
           <ProjectCard project={projects[2]} />
           <ProjectCard project={projects[3]} />
           <ProjectCard project={projects[4]} />
-          <ProjectCard project={projects[5]} />
         </div>
 
         
