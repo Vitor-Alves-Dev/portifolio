@@ -34,8 +34,9 @@ function ContactSection() {
             Vamos trabalhar juntos
           </h2>
           <p className="text-base text-muted-foreground leading-relaxed mb-12">
-            Estou sempre aberto a novos projetos e oportunidades. 
-            Entre em contato através das redes sociais ou envie um email.
+            Estou disponível para oportunidades como desenvolvedor Front-end.
+           Tenho experiência no desenvolvimento de aplicações web e mobile utilizando JavaScript, React e React Native, com foco em performance e experiência do usuário.
+Entre em contato para conversarmos sobre como posso contribuir com seu projeto.
           </p>
 
           <div className="flex justify-center gap-4">

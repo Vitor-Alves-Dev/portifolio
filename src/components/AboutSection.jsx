@@ -6,22 +6,22 @@ function AboutSection() {
     {
       icon: Code2,
       title: 'Desenvolvimento React',
-      description: 'Criação de aplicações web modernas e escaláveis com React, hooks e gerenciamento de estado'
+      description: 'Desenvolvimento de aplicações utilizando React, com componentização, hooks e gerenciamento de estado.'
     },
     {
       icon: Palette,
       title: 'UI/UX Design',
-      description: 'Design de interfaces intuitivas e acessíveis com foco na experiência do usuário'
+      description: 'Criação de interfaces intuitivas e responsivas, com foco na usabilidade e experiência do usuário.'
     },
     {
       icon: Smartphone,
       title: 'Design responsivo',
-      description: 'Desenvolvimento de layouts que se adaptam perfeitamente a qualquer dispositivo'
+      description: 'Construção de layouts adaptáveis para diferentes dispositivos, garantindo boa visualização em mobile e desktop.'
     },
     {
       icon: Zap,
       title: 'Performance',
-      description: 'Otimização de aplicações para garantir carregamento rápido e melhor desempenho'
+      description: 'Otimização de aplicações para melhorar carregamento, desempenho e experiência do usuário.'
     }
   ];
 
@@ -36,9 +36,9 @@ function AboutSection() {
             Sobre mim
           </h2>
           <p className="text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Desenvolvedor front-end apaixonado por criar experiências digitais que fazem a diferença. 
-            Com expertise em React, JavaScript e Tailwind CSS, transformo conceitos em realidade através 
-            de código limpo e interfaces elegantes.
+            Atuo no desenvolvimento de interfaces web com foco em funcionalidade, organização de código e experiência do usuário.
+            Gosto de construir aplicações interativas e responsivas, aplicando conceitos como componentização e boas práticas de desenvolvimento.
+            Busco evoluir constantemente através da prática e da criação de projetos que simulem situações reais do mercado.
           </p>
         </div>
 

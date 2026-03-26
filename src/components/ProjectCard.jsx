@@ -31,24 +31,19 @@ function ProjectCard({ project }) {
         </div>
         
         <div className="mt-auto">
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-primary font-medium text-sm hover:underline transition-colors duration-200"
+          <button
+        
+            className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-all duration-200 active:scale-[0.98]"
+            onClick={() => window.open(project.link, "_blank")} 
           >
             Ver projeto
-            <ExternalLink className="w-4 h-4" />
-          </a>
-          <a
-            href={project.linkCodigo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-primary font-medium text-sm hover:underline transition-colors duration-200 ml-3"
+          </button>
+          <button
+            className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary/90 transition-all duration-200 active:scale-[0.98] ml-3"
+            onClick={() => window.open(project.linkCodigo, "_blank")} 
           >
-            Código
-            <ExternalLink className="w-4 h-4" />
-          </a>
+             Código
+          </button>
         </div>
       </div>
     </div>

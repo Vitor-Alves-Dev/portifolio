@@ -11,7 +11,7 @@ function ProjectsSection() {
     {
       image: finans,
       title: 'Projeto Finans',
-      description: 'Projeto de layout desenvolvido com HTML e Bootstrap. Focado no design responsivo e na estrutura visual de um site financeiro; funcionalidades em JavaScript ainda em desenvolvimento.',
+      description: 'Aplicação de layout para site financeiro, desenvolvida com foco em responsividade e organização visual.Interface moderna construída com HTML, CSS e Bootstrap, simulando uma landing page de produto digital.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       link: 'https://vitor-alves-dev.github.io/ProjetoFinans/',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
@@ -28,7 +28,7 @@ function ProjectsSection() {
     {
       image: acertaMosquito,
       title: 'Jogo do Acerta Mosquito',
-      description: 'Desenvolvido com HTML, CSS e JavaScript. Um jogo simples e divertido, com seleção de dificuldade, sistema de tempo e vidas',
+      description: 'Jogo interativo onde o usuário deve eliminar mosquitos que aparecem na tela antes que desapareçam. Conta com níveis de dificuldade que alteram a velocidade e frequência dos elementos, aumentando o desafio.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://vitor-alves-dev.github.io/jogo-mata-mosquito/',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
@@ -36,15 +36,15 @@ function ProjectsSection() {
     {
       image: interroga,
       title: 'Interroga(projeto autoral)',
-      description: 'Jogo de enigmas com 10 fases, criei de forma independente. O jogador deve reunir pistas escondidas na tela para descobrir a palavra que desbloqueia apróxima fase. Demonstra raciocínio lógico, criatividade e domínio de lógica de programação.',
+      description: 'Jogo de enigmas com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
       technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
-      link: 'https://github.com/Vitor-Alves-Dev/interroga',
+      link: 'https://interroga-git-master-vitor-alves-devs-projects.vercel.app',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
     },
     {
       image: mensagemDoDia,
       title: 'Mensagem Do Dia',
-      description: 'Aplicação desenvolvida com React Native (Expo) que exibe mensagens motivacionais de forma aleatória ao usuário. O projeto permite interação simples, onde o usuário pode revelar uma nova mensagem do dia, proporcionando uma experiência leve e intuitiva.',
+      description: 'Aplicação que exibe mensagens aleatórias ao usuário ao interagir com o elemento principal. Simula a experiência utilizando manipulação dinâmica do DOM.',
       technologies: ['React Native', 'Expo', 'StyleSheet', 'React Native(Web)', 'JavaScript'],
       link: 'https://mensagem-do-dia-virid.vercel.app',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/MensagemDoDia'
@@ -76,8 +76,7 @@ function ProjectsSection() {
             Projetos em destaque
           </h2>
           <p className="text-base text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Conheça alguns dos projetos que desenvolvi utilizando as melhores práticas 
-            e tecnologias modernas do mercado
+            Confira alguns projetos desenvolvidos com foco em responsividade, interatividade e boas práticas de desenvolvimento.
           </p>
         </div>
 

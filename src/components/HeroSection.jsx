@@ -25,7 +25,7 @@ function HeroSection() {
           </p>
           
           <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-8">
-            Desenvolvedor em formação com foco em desenvolvimento web e mobile, utilizando tecnologias como JavaScript e React Native. Possuo experiência prática na criação de aplicações interativas, aplicando conceitos como gerenciamento de estado, componentização e boas práticas de interface. Busco constantemente evoluir minhas habilidades e construir projetos que unam funcionalidade e uma boa experiência do usuário.
+            Desenvolvedor Front-end com conhecimentos em Back-end, Bacharel em Sistemas de Informação (2019 - 2022), com experiência em JavaScript, React, React Native e Node.js, atuando na criação de aplicações web e mobile responsivas, utilizando componentização, gerenciamento de estado e boas práticas de interface, com foco em performance e experiência do usuário. 
           </p>
           
           <button
