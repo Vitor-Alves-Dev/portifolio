@@ -38,7 +38,7 @@ function ProjectsSection() {
       title: 'Interroga(projeto autoral)',
       description: 'Jogo de enigmas com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
       technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
-      link: 'https://interroga-git-master-vitor-alves-devs-projects.vercel.app',
+      link: 'https://interroga-2.vercel.app',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
     },
     {
