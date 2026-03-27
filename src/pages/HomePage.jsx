@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Vitor Hugo Viana Alves - Front-End Developer</title>
+        
         <meta 
           name="description" 
           content="Portfolio de Vitor Hugo Viana Alves, desenvolvedor front-end especializado em React, JavaScript e Tailwind CSS. Conheça meus projetos e entre em contato." 
