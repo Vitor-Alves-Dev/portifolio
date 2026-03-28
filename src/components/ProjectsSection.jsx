@@ -9,6 +9,14 @@ import mensagemDoDia from '../img/mensagemdodia.PNG'
 function ProjectsSection() {
   const projects = [
     {
+      image: interroga,
+      title: 'Interroga',
+      description: 'Jogo de enigmas(apenas para desktop) com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
+      technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
+      link: 'https://interroga-2.vercel.app',
+      linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
+    },
+    {
       image: finans,
       title: 'Projeto Finans',
       description: 'Aplicação de layout para site financeiro, desenvolvida com foco em responsividade e organização visual.Interface moderna construída com HTML, CSS e Bootstrap, simulando uma landing page de produto digital.',
@@ -33,14 +41,7 @@ function ProjectsSection() {
       link: 'https://vitor-alves-dev.github.io/jogo-mata-mosquito/',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
     },
-    {
-      image: interroga,
-      title: 'Interroga',
-      description: 'Jogo de enigmas(apenas para desktop) com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
-      technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
-      link: 'https://interroga-2.vercel.app',
-      linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
-    },
+    
     {
       image: mensagemDoDia,
       title: 'Mensagem Do Dia',
