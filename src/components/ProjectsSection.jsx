@@ -12,10 +12,10 @@ function ProjectsSection() {
     {
       image: interroga,
       title: 'Interroga',
-      description: 'Jogo de enigmas(apenas para desktop) com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa.Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
+      description: 'Jogo de enigmas (apenas para desktop) com 10 fases, onde o jogador precisa identificar pistas escondidas na interface para descobrir a palavra que libera a próxima etapa. Possui progressão de dificuldade e interação dinâmica, explorando lógica de programação e manipulação do DOM.',
       technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
       link: 'https://interroga-2.vercel.app',
-      linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
+      linkCodigo: 'https://github.com/Vitor-Alves-Dev/interroga'
     },
     {
       image: vhfeed,
@@ -31,12 +31,12 @@ function ProjectsSection() {
       description: 'Aplicação de layout para site financeiro, desenvolvida com foco em responsividade e organização visual.Interface moderna construída com HTML, CSS e Bootstrap, simulando uma landing page de produto digital.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       link: 'https://vitor-alves-dev.github.io/ProjetoFinans/',
-      linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
+      linkCodigo: 'https://github.com/Vitor-Alves-Dev/ProjetoFinans'
 
     },
     {
       image: secretWord,
-      title: 'Secret Word',
+      title: 'Secret Word 2.0',
       description: 'Criado com React.js, HTML e CSS. O objetivo é adivinhar a palavra secreta letra por letra, acumulando pontos. Inclui sistema de tentativas, categorias e fácil expansão de palavras para maior dinâmica.',
       technologies: ['React', 'TypeScript', 'HTML', 'CSS'],
       link: 'https://secret-word-20.vercel.app',
