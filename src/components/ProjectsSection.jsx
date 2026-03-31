@@ -5,6 +5,7 @@ import acertaMosquito from '../img/acertaMosquito.PNG'
 import secretWord from '../img/secretWord.PNG'
 import interroga from '../img/interroga.PNG'
 import mensagemDoDia from '../img/mensagemdodia.PNG'
+import vhfeed from '../img/vhfeed.PNG'
 
 function ProjectsSection() {
   const projects = [
@@ -15,6 +16,14 @@ function ProjectsSection() {
       technologies: ['JavaScript', 'HTML', 'CSS', 'TypeScript'],
       link: 'https://interroga-2.vercel.app',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/jogo-mata-mosquito'
+    },
+    {
+      image: vhfeed,
+      title: 'VHFeed — Social Feed App (Em desenvolvimento)',
+      description: 'Feed de rede social desenvolvido com React Native (Expo), com suporte para web e mobile. Possui sistema de curtidas, layout responsivo e adaptação automática para diferentes tamanhos de tela. Deploy realizado no Vercel.',
+      technologies: ['React Native', 'Expo', 'JavaScript', 'TypeScript'],
+      link: 'https://vh-feed.vercel.app',
+      linkCodigo: 'https://github.com/Vitor-Alves-Dev/VHFeed'
     },
     {
       image: finans,
@@ -50,13 +59,6 @@ function ProjectsSection() {
       link: 'https://mensagem-do-dia-virid.vercel.app',
       linkCodigo: 'https://github.com/Vitor-Alves-Dev/MensagemDoDia'
     },
-    {
-      image: 'https://images.unsplash.com/photo-1642452222105-b2933e287da4',
-      title: 'Loja virtual modernaa',
-      description: 'E-commerce completo com carrinho de compras, sistema de pagamento integrado, gestão de estoque e painel administrativo.',
-      technologies: ['React', 'Tailwind CSS', 'Stripe', 'PostgreSQL'],
-      link: ''
-    }
     
   ];
 
@@ -81,6 +83,7 @@ function ProjectsSection() {
           <ProjectCard project={projects[2]} />
           <ProjectCard project={projects[3]} />
           <ProjectCard project={projects[4]} />
+          <ProjectCard project={projects[5]} />
         </div>
 
         
