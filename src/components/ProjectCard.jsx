@@ -43,7 +43,7 @@ function ProjectCard({ project }) {
             onClick={() => window.open(project.linkCodigo, "_blank")} 
           >
              Código
-          </button>
+          </button>  
         </div>
       </div>
     </div>
