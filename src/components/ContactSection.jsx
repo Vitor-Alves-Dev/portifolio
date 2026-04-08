@@ -55,6 +55,7 @@ Entre em contato para conversarmos sobre como posso contribuir com seu projeto.
                 </a>
               );
             })}
+            
           </div>
         </div>
       </div>
