@@ -54,6 +54,8 @@ Entre em contato para conversarmos sobre como posso contribuir com seu projeto.
                   <Icon className="w-6 h-6" />
                 </a>
               );
+
+              
             })}
           </div>
         </div>
