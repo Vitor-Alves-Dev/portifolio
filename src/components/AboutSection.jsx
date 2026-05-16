@@ -72,7 +72,7 @@ function AboutSection() {
 
         <div className="mt-12 text-center">
           <div className="inline-flex flex-wrap gap-3 justify-center">
-            {['React', 'JavaScript', 'Tailwind CSS', 'HTML5', 'CSS3', 'Git', 'Responsive Design', 'UI/UX'].map((tech, index) => (
+            {['React', 'React Native', 'Angular', 'JavaScript', 'TypeScript', 'Tailwind CSS', 'HTML5', 'CSS3', 'Git', 'Responsive Design', 'UI/UX'].map((tech, index) => (
               <span
                 key={index}
                 className="px-4 py-2 bg-secondary text-secondary-foreground rounded-lg text-sm font-medium"
