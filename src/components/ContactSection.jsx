@@ -34,9 +34,9 @@ function ContactSection() {
             Vamos trabalhar juntos
           </h2>
           <p className="text-base text-muted-foreground leading-relaxed mb-12">
-            Estou disponível para oportunidades como desenvolvedor Front-end.
-           Tenho experiência no desenvolvimento de aplicações web e mobile utilizando JavaScript, React e React Native, com foco em performance e experiência do usuário.
-Entre em contato para conversarmos sobre como posso contribuir com seu projeto.
+            Estou disponível para oportunidades como desenvolvedor Full Stack.
+            Tenho experiência no desenvolvimento de aplicações web e mobile utilizando JavaScript, React, React Native e Angular no frontend, além de Node.js, MySQL e PostgreSQL no backend, com foco em performance, escalabilidade e experiência do usuário.
+            Entre em contato para conversarmos sobre como posso contribuir com seu projeto.
           </p>
 
           <div className="flex justify-center gap-4">
